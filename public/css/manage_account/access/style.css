@@ -1,0 +1,137 @@
+.btn-new{
+	background-color: #2449f0;
+	color: #fff;
+}
+
+.btn-new:hover{
+	background-color: #2449f0;
+	color: #fff;
+}
+
+.btn-filter{
+	background-color: #fff;
+	color: #2449f0;
+}
+
+.btn-filter:hover{
+	background-color: #fff;
+	color: #2449f0;
+}
+
+.btn-filter:hover, .btn-new:hover{
+	border: 0px solid #2449f0;
+}
+
+.btn-filter:not( :hover ), .btn-new:not( :hover ){
+	border: 0px solid #2449f0;
+}
+
+.card-noborder{
+	border: 0px;
+}
+
+.b-radius{
+	border-radius: 10px;
+}
+
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table-custom tbody tr td{
+	color: #3b3b3b;
+	font-weight: bold;
+	padding: 10px 10px;
+}
+
+.table-custom thead tr th{
+	color: #a3a3a3;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.table-custom tbody tr td img{
+	border-radius: 10px !important;
+	width: 45px !important;
+    min-width: 45px !important;
+    height: 45px !important;
+}
+
+.search-dropdown{
+	width: 300px !important;
+}
+
+.search-dropdown input{
+	margin-left: 15px !important;
+}
+
+.btn-search{
+	background-color: #fff;
+	border-radius: 5px;
+	border: 0;
+	color: #2449f0;
+	font-size: 14px;
+	width: 35px;
+	min-width: 35px;
+	height: 35px;
+	padding: 5px;
+}
+
+.search-icon{
+	color: #2449f0;
+	font-size: 14px;
+}
+
+.b-left{
+	border-left: 1px solid #dee2e6 !important;
+	width: 150px;
+}
+
+.btn-access{
+	cursor:pointer;
+	color: #007aff;
+	font-size: 30px !important;
+}
+
+.btn-access:hover{
+	color: #006de5;
+	text-decoration: none;
+}
+
+.btn-non-access{
+	cursor:pointer;
+	color: #ddd;
+	font-size: 30px !important;
+}
+
+.btn-non-access:hover{
+	color: #b2b5b9;
+	text-decoration: none;
+}
+
+.admin-span, .admin-span:hover{
+	color: #ff6258;
+	font-weight: bold;
+	background-color: rgba(255, 98, 88, 0.2);
+	padding: 4px 10px !important;
+}
+
+.kasir-span, .kasir-span:hover{
+	color: #ffaf00;
+	font-weight: bold;
+	background-color: rgba(255, 175, 0, 0.2);
+	padding: 4px 10px !important;
+}
+
+.txt-user-desc{
+	color: #c9cbce;
+	font-size: 12px;
+}
+
+.dot{
+	font-size: 5px !important;
+}

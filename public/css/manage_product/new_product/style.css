@@ -1,0 +1,153 @@
+.card-noborder{
+	border: 0px;
+}
+
+.b-radius{
+	border-radius: 10px;
+}
+
+.illust-img{
+	display: block;
+	margin: auto;
+	width: 200px;
+}
+
+.bg-dark-blue .card{
+	background: #030aac;
+}
+
+.icon-holder{
+	border-radius: 5px;
+    border: 1px solid #4e55c5;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #2944b5;
+    color: #fff;
+    font-size: 20px;
+}
+
+.icon-holder:hover{
+	color: #e0e0e0;
+}
+
+.link-how:hover{
+	text-decoration: none;
+}
+
+.q-mark{
+	border: 1px solid #fff;
+	border-radius: 100%;
+	font-size: 12px;
+	padding: 0px 4px;
+}
+
+.btn-upload{
+	border: 1px solid #4e55c5;
+	background: #2944b5;
+	color: #fff;
+}
+
+.btn-upload:hover{
+	color: #e0e0e0;
+}
+
+.btn-scan{
+	background-color: #2449f0;
+	color: #fff;
+}
+
+.btn-scan:hover{
+	background-color: #2449f0;
+	color: #fff;
+}
+
+.btn-scan:hover{
+	border: 0px solid #2449f0;
+}
+
+.btn-scan:not( :hover ){
+	border: 0px solid #2449f0;
+}
+
+.btn-scan i{
+	font-size: 16px;
+}
+
+.btn-simpan{
+	background-color: #1c45ef;
+	color: #fff;
+	font-weight: bold;
+}
+
+.btn-simpan:hover{
+	color: #fff;
+}
+
+.close-btn{
+	background-color: #d7d7d7 !important;
+	border-radius: 5px;
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+	padding: 0.2rem 0.7rem !important;
+}
+
+@media (max-width: 765px) {
+	.space-bottom{
+		margin-bottom: 1rem !important;
+	}
+}
+
+video{
+	border-radius: 10px;
+	width: 100%;
+}
+
+.drawingBuffer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.form-border{
+	background-color: #d1e6ff;
+	border: 1px solid #2196f3;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.form-border p{
+	font-weight: bold;
+}
+
+.img-import-area{
+	overflow-x: auto;
+	padding-bottom: 20px;
+}
+
+.img-import{
+	width: 800px;
+	border: 2px solid #2196f3;
+	border-radius: 10px;
+}
+
+.excel-name{
+	width: 120px;
+	text-align: right;
+}
+
+label.error{
+	color: #ff6258 !important;
+	font-size: 12px !important;
+	margin-top: 10px !important;
+}

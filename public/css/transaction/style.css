@@ -1,0 +1,349 @@
+@media (max-width: 400px) {
+    .transaction-header{
+        display: block !important;
+    }
+
+    .mt-h{
+        margin-top: 20px !important;
+    }
+}
+
+.card-noborder{
+	border: 0px;
+}
+
+.b-radius{
+	border-radius: 10px;
+}
+
+.icon-holder{
+	border-radius: 5px;
+    border: 1px solid #4e55c5;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #2944b5;
+    color: #fff;
+    font-size: 20px;
+}
+
+.bg-dark-blue .card{
+	background: #030aac;
+}
+
+.btn-search{
+    background-color: #fff;
+	color: #2196f3;
+    font-size: 18px !important;
+}
+
+.btn-scan{
+	background-color: #264bf1;
+	color: #fff;
+	font-size: 18px !important;
+}
+
+.btn-search:hover{
+	color: #2196f3;
+}
+
+.btn-scan:hover{
+	color: #fff;
+}
+
+.btn-group{
+	border: 0;
+}
+
+.cart-icon{
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    color: #c0c0c0;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.payment-icon{
+    font-size: 56px;
+    text-align: center;
+}
+
+.nama-barang-td{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.kode-barang-td{
+    display: block;
+    color: #c0c0c0;
+    font-size: 12px;
+}
+
+.btn-operate{
+    color: #262626;
+    font-weight: bold !important;
+    font-size: 18px;
+}
+
+.btn-operate:hover{
+    color: #262626;
+    text-decoration: none;
+}
+
+.ammount-product{
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
+}
+
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.payment-1{
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.table-payment-1, .table-payment-2, .table-payment-3{
+    width: 100%;
+}
+
+.table-payment-1 tr td{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.table-payment-2 tr td{
+    padding: 5px 0px;
+}
+
+.table-payment-3 tr td{
+    padding: 8px 0px;
+}
+
+.subtotal-td, .diskon-td{
+    display: block;
+    font-size: 16px !important;
+}
+
+.jml-barang-td{
+    color: #c0c0c0;
+    display: block;
+    font-size: 12px !important;
+}
+
+.ubah-diskon-td, .simpan-diskon-td{
+    display: block;
+    font-size: 12px !important;
+}
+
+.ubah-diskon-td:hover, .simpan-diskon-td:hover{
+    text-decoration: none;
+}
+
+.nilai-total1-td{
+    color: #19d895;
+    background-color: rgba(25, 216, 149, 0.2);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-bayar{
+    color: #fff;
+    background-color: #465ef2;
+    font-weight: bold;
+}
+
+.btn-bayar:hover{
+    color: #fff;
+}
+
+.close-btn{
+    background-color: #d7d7d7 !important;
+    border-radius: 5px;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    padding: 0.2rem 0.7rem !important;
+}
+
+.drawingBuffer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.form-border{
+    background-color: #d1e6ff;
+    border: 1px solid #2196f3;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form-border p{
+    font-weight: bold;
+}
+
+.ammount-box{
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 0.5px 5px 10px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.txt-light{
+    color: #b2b2b2 !important;
+    font-size: 12px !important;
+}
+
+.diskon-input{
+    height: 25px;
+    width: 70px;
+}
+
+#bayar_error label{
+    color: #ff6258;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.nominal-min{
+    padding: 0px 0px 8px 0px !important;
+    font-size: 12px;
+}
+
+video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.drawingBuffer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.form-border{
+    background-color: #d1e6ff;
+    border: 1px solid #2196f3;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form-border p{
+    font-weight: bold;
+}
+
+.active-list{
+    display: flex !important;
+}
+
+.non-active-list{
+    display: none !important;
+}
+
+.kode_barang_error{
+    text-align: center;
+}
+
+.bg-grey img{
+    display: block;
+    margin: auto;
+    width: 18rem;
+}
+
+.success-close{
+    margin-bottom: 0px !important;
+}
+
+.transaction-success-text{
+    color: #c0c0c0;
+    margin-top: -10px;
+}
+
+.btn-close-modal {
+    border: 1px solid #c0c0c0;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-cetak-pdf, .btn-cetak-pdf:hover{
+    background-color: #495ff1;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.table-receipt{
+    margin: auto;
+    width: 90%;
+}
+
+.table-receipt tr td{
+    padding: 5px 5px 5px 40px;
+}
+
+.jml-barang-receipt, .little-td{
+    color: #c0c0c0;
+    font-size: 12px;
+}
+
+.table-summary{
+    width: 100%;
+    text-align: right;
+}
+
+.table-summary tr td{
+    padding: 5px;
+}
+
+.line-td{
+    border-top: 1px solid #efefef;
+}
+
+.big-td{
+    width: 320px;
+}
+
+.bg-green{
+    color: #19d895;
+    background-color: rgba(25, 216, 149, 0.2);
+    border-color: rgba(25, 216, 149, 0);
+}

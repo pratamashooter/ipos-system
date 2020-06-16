@@ -1,0 +1,177 @@
+.card-noborder{
+	border: 0px;
+}
+
+.b-radius{
+	border-radius: 10px;
+}
+
+.btn-search{
+    background-color: rgba(33, 150, 243, 0.2);
+	color: #2196f3;
+}
+
+.btn-search:hover{
+	color: #2196f3;
+}
+
+.close-btn{
+	background-color: #d7d7d7 !important;
+	border-radius: 5px;
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+	padding: 0.2rem 0.7rem !important;
+}
+
+.active-list{
+    display: flex !important;
+}
+
+.non-active-list{
+    display: none !important;
+}
+
+.txt-light{
+	color: #b2b2b2 !important;
+	font-size: 12px !important;
+}
+
+.ammount-box-1{
+	border-radius: 5px;
+    display: inline-block;
+	font-size: 14px;
+	margin-right: 10px;
+	width: 25px;
+    height: 25px;
+    padding: 0.5px 10px 10px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ammount-box-2{
+	border-radius: 5px;
+    display: inline-block;
+	font-size: 14px;
+	margin-right: 10px;
+	width: 25px;
+    height: 25px;
+    padding: 5px 10px 10px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bg-green{
+	color: #19d895;
+    background-color: rgba(25, 216, 149, 0.2);
+    border-color: rgba(25, 216, 149, 0);
+}
+
+.ammount-group{
+	width: 180px;
+}
+
+.table-responsive{
+    width: 100%;
+    max-height: 600px;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table-custom tbody tr td{
+	color: #3b3b3b;
+	font-weight: bold;
+	padding: 15px 10px;
+	text-align: left;
+}
+
+.table-custom thead tr th{
+	color: #c9c9c9;
+	font-size: 12px;
+	padding: 15px 10px;
+	text-align: left;
+}
+
+.info-btn{
+	color: #8c8c8c;
+}
+
+.info-btn:hover{
+	color: #8c8c8c;
+}
+
+.percent-info{
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	list-style: none;
+	padding: 10px;
+	width: 100%;
+}
+
+.dot{
+	color: #c9c9c9;
+	font-size: 5px;
+	margin-bottom: 12px;
+}
+
+.p-info-barang{
+	color: #c9c9c9;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.ammount-box-3{
+	color: #c9c9c9;
+	margin-bottom: 12px;
+}
+
+.foto-pemasok{
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-top: -12px;
+	margin-left: -10px;
+	object-fit: cover;
+	width: 30px;
+}
+
+.print-icon{
+	color: #435df2;
+	font-size: 18px;
+}
+
+.calendar-icon{
+	color: #435df2;
+	font-size: 14px;
+}
+
+.btn-print{
+	background-color: transparent;
+	border: 1px solid #ced4da;
+	color: #000;
+	font-weight: bold;
+}
+
+.offset-col-1{
+	margin-left: 8.33333%;
+}
+
+.form-check-label{
+	margin-bottom: 15px !important;
+}
+
+.period-select{
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.time-input{
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.btn-export, .btn-export:hover{
+	border: 1px solid #ced4da;
+	color: #435df2;
+	font-weight: bold;
+}
